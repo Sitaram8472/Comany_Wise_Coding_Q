@@ -22,7 +22,6 @@ public class BinarytoDecimal {
 
   public static void main(String[] args) {
     int n = 1011;
-
     int pow = 0;
     int ans = 0;
     while (n > 0) {
@@ -30,10 +29,7 @@ public class BinarytoDecimal {
       ans += digit * Math.pow(2, pow);
       pow++;
       n /= 10;
-
     }
-
     System.out.println(ans);
-
   }
 }

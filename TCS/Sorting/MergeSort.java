@@ -54,6 +54,7 @@ public class MergeSort {
     for (int i = 0; i < temp.length; i++) {
       arr[low + i] = temp[i];
     }
+     
   }
 
   public static void main(String[] args) {

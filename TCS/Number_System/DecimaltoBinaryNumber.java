@@ -28,9 +28,6 @@ public class DecimaltoBinaryNumber {
       n /= 2;
     }
     sb.reverse();
-
     System.out.println(sb.toString());
-
   }
-
 }
